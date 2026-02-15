@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="func.js"></script>
+    <title>Level 4 - Form Validation</title>
+</head>
+<body class="bg-light d-flex justify-content-center align-items-center vh-100">
+
+    <div class="card p-4 shadow-sm" style="max-width: 400px; width: 100%; border-radius: 12px; border: none;">
+        <div class="mb-3">
+            <span class="badge rounded-pill bg-primary px-3 mb-2">Level 4</span>
+            <h2 class="fw-bold mb-1">Form Validation</h2>
+            <p class="text-muted small">Enter a name. Empty = error, filled = success.</p>
+        </div>
+
+        <div class="mb-3">
+            <label for="heroName" class="form-label fw-semibold small">Hero Name</label>
+            <input type="text" class="form-control" id="heroName" placeholder="Type your name...">
+            <div id="errorText" class="invalid-feedback">Name is required!</div>
+            <div id="successText" class="valid-feedback" style="display:none; color: #198754;">Welcome! ✅</div>
+        </div>
+
+        <div class="d-grid mb-3">
+            <button type="button" class="btn btn-primary" id="submitName">Submit Name</button>
+        </div>
+
+        <hr class="my-3">
+
+        <div class="footer-actions d-flex gap-2">
+            <a href="lvl3.html" class="btn btn-secondary flex-grow-1">Back</a>
+            <a href="lvl5.html" id="nextLevelBtn" class="btn btn-dark flex-grow-1 disabled" style="opacity: 0.6; pointer-events: none;">Next Level</a>
+        </div>
+    </div>
+
+</body>
+</html>

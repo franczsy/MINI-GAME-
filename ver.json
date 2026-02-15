@@ -1,0 +1,5 @@
+{
+    "rewrites":[{
+        "source": "/(.*)", "destination": "lvl1.html"
+    }]
+}

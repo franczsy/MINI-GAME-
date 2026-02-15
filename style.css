@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background-color: #f8f9fa;
+}
+
+.card {
+ 
+    width: 100%;
+    max-width: 400px; 
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.badge {
+    font-size: 0.75rem;
+    padding: 6px 12px;
+    margin-bottom: 1rem;
+}
+
+h2, h3, h4 {
+    font-weight: 700;
+}
+.btn {
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 12px;
+}
+.footer-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 1.5rem;
+}
+
+.footer-actions .btn {
+    flex: 1; 
+}
